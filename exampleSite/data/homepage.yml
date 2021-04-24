@@ -1,0 +1,55 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Live Webinar with Claire Sharryn Roberto"
+  content : "Find clairty in your kitchen, health and mind through the lense of wholefoods with Claire Sharryn Roberto this April 1st"
+  image : "images/banner.png"
+  # button
+  button:
+    enable : true
+    label : "Attend"
+    link : "mailchimp"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://www.youtube.com/embed/TFf7zMxnEl0"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "About Claire"
+  content : "Claire Sharryn Roberto is a renowned whole foods chef. She's always in the kitchen experimenting and challenging herself to create alchemical wonders. Many of her recipes harness the healing properties of adaptogenic and tonic herbs, raw foods, and alkalizing ingredients to make potent drinks, snacks, sweets, and meals that deliver a multitude of health benefits"
+  image : "images/about.png"
+
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "What's in it for you?"
+  materialItem:
+    # material item loop
+    - title : "Plant-based recpies"
+      image : "images/material/material-1.png"
+      
+    # material item loop
+    - title : "Chef skills"
+      image : "images/material/material-2.png"
+      
+    # material item loop
+    - title : "Save money on groceries"
+      image : "images/material/material-3.png"
+      
+    # material item loop
+    - title : "Interact with with Claire"
+      image : "images/material/material-4.png"
+      
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "What's in it for you?"
+  advantageList:
+    # advantage list loop
+    - listItem : "Plant-based recpies"
+    - listItem : "Chef skills"
+    - listItem : "Save money on groceries"
+    - listItem : "Interact with with Claire"
